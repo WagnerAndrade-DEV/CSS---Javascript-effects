@@ -87,3 +87,10 @@ ul li a:hover:before{
     transition: 0.5s;
     transition-delay: 0.2s;
 }
+
+footer{
+    color: #ffffff7a;
+    position: absolute;
+    bottom: 0;
+    padding: 5mm;
+}
