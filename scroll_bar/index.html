@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scroll Psico Bar</title>
+</head>
+<body>
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+    <section>
+        <h1>Random text, Look at the ScrollBar!</h1>
+        <h3>Trailer Park Boys</h3>
+        <p>
+            Trailer Park Boys is a Canadian mockumentary television series. The show focuses on the misadventures of a group of outrageous trailer park residents, some of whom are ex-convicts, living in the fictional Sunnyvale Trailer Park in Dartmouth, Nova Scotia. The television series, a continuation of Clattenburg's 1999 film of the same title, premiered on Showcase in 2001. There are three films in the series: The Movie, released on October 6, 2006; Countdown to Liquor Day, released on September 25, 2009; and Don't Legalize It, released on April 18, 2014.
+
+            The seventh and final season of the series' original run on Showcase ended in 2007, with its final episode, "Say Goodnight to the Bad Guys", premiering as a one-hour special on December 7, 2008.
+            
+            In 2013, Robb Wells, John Paul Tremblay, and Mike Smith, the actors who portrayed Ricky, Julian, and Bubbles, purchased the rights to the show from the original producers and created their own internet streaming network, "Swearnet". In March 2014, Swearnet began co-producing new seasons of the show, partnering with the streaming service Netflix to produce an eighth and ninth season, as well as three new specials. Season 8 premiered on September 5, 2014, followed by Season 9 on March 27, 2015.
+            
+            Later that year, the show received the green light for two more seasons and began production on Season 10. During that time, the Canadian government granted the cast and crew money to help produce the new season and a new spin-off series. Season 10 premiered on Netflix on March 28, 2016.
+            
+            A new eight-part series, Trailer Park Boys: Out of the Park: Europe, became available for streaming on Netflix on October 28, 2016. A vlog series on Swearnet called State of the Union confirmed a second season taking place in the United States. Titled Trailer Park Boys: Out of the Park: USA, it premiered on Netflix on November 24, 2017.
+            
+            Season 11 premiered on March 31, 2017. After confirming on June 19, 2017, that a twelfth season had been greenlit and filming had begun, it premiered on Netflix on March 30, 2018.
+            
+            A spin-off was released on March 31, 2019, as an animated series and continuation of the original release. In October 2019, Smith revealed that filming had begun on another season. 
+            In 1998, director Mike Clattenburg wrote and directed a short film titled One Last Shot, which was shot in black-and-white. The film followed the exploits of two friends, Rob (Robb Wells) and Gary Williams or GW (John Paul Tremblay), although it is not based in the same setting as Trailer Park Boys. It was the first time Robb, John Paul and John Dunsworth worked together. In the 1999 feature film Trailer Park Boys, the character Julian states to the camera that he wanted his life to be documented after receiving a telephone psychic's prediction that he would die soon. He hoped that the film would deter others from the life of crime he had chosen.
+
+            The feature film was shown at the Atlantic Film Festival in 1999, and it caught the attention of producer Barrie Dunn, who saw the potential for a TV series. Clattenburg and Dunn, along with Wells and Tremblay, worked on a proposal for a 13-episode season of the show and traveled to Toronto to pitch the show to The Comedy Network. After being turned down, they suddenly decided to pitch the show to Showcase before returning home to Nova Scotia.
+
+            They found that the network was receptive and sent them back with a commitment to a first season, with the provision that a second experienced producer (which ended up being Michael Volpe) be brought on board to assist the team. The first six 30-minute episodes were then written and filmed. Some modifications were made to the characters and storyline for the series, and more humor was added to the series in comparison to the film.
+
+            The biggest change from film to series was the addition of Mike Smith's "Bubbles" character, who was originally developed for the earlier short film The Cart Boy, a film that Smith, Wells, Tremblay, and Clattenburg worked on together in 1995. Smith's character soon grew from a recurring character to one of the show's primary protagonists (although in the earlier film, "Bubbles" was the name of Smith's character's cat). Trailer Park Boys resided with Showcase for its first seven seasons. Beginning with the eighth season, the series was released through Netflix.
+
+            Early seasons were shot in various trailer parks in Nova Scotia, but the crew was not welcome to film again due to complaints from residents. Space was purchased and a functional trailer park set was built in Dartmouth for later seasons, giving the staff more freedom than at previous locations. When the series returned from hiatus beginning with Season 8, it was shot at Bible Hill Estates Trailer Park in Truro, Nova Scotia, with every subsequent episode being filmed at that location. After the 12th season, they ceased filming at the location and removed all sets and props from Bible Hill Estates, which still exists as an operating land lease community.
+
+            Episodes revolve around Sunnyvale Trailer Park residents Ricky, Julian, and Bubbles trying to make money through petty crimes while avoiding the police. Their schemes are complicated by the interference of the park's vindictive alcoholic supervisor Jim Lahey and his assistant and lover, Randy. Ricky and Julian's incompetence is rivaled by Lahey's drunken ineptitude.
+
+            Throughout the series, Ricky and Julian (and Bubbles to a lesser degree) end up in and out of jail, with most of their schemes collapsing into failure. Later seasons adopted a cyclical formula: each season finale featured the boys' schemes succeeding, and their future looking optimistic, while the next season's premiere would show them explaining how everything had gone wrong in the interim. Fans learned to expect that seasons would somehow end with some or all of the main characters going to jail.
+        </p>
+    </section>
+    
+    <footer>
+        Contact: wagnerandrade.dev@gmail.com
+    </footer>
+
+    <script type="text/javascript">
+        let progress = document.getElementById('progressBar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 99.7;
+            progress.style.height = progressHeight + '%';
+        }
+    </script>
+</body>
+</html>
