@@ -39,7 +39,7 @@ span{
     background: white;
     transform: translate(-50%,-50%);
     pointer-events: none;
-    border-radius: 50%;
+    border-radius: 100%;
     animation: animate 1s linear infinite;
 }
 
